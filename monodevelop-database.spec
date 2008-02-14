@@ -8,6 +8,7 @@ Source0:	http://go-mono.com/sources/%name/%{name}-%{version}.tar.bz2
 BuildRequires:	mono-devel monodevelop >= 0.18
 Summary:	Monodevelop Database Addin
 Group:		Development/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Monodevelop Database Addin
