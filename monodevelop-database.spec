@@ -1,11 +1,11 @@
 Name:     	monodevelop-database
-Version:	0.19
+Version:	1.0
 Release:	%mkrel 1
 License:	LGPL
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/%name/%{name}-%{version}.tar.bz2
-BuildRequires:	mono-devel monodevelop >= 0.19 mono-addins
+BuildRequires:	mono-devel monodevelop >= 1.0 mono-addins
 Summary:	Monodevelop Database Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
