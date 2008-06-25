@@ -1,6 +1,6 @@
 Name:     	monodevelop-database
 Version:	1.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	LGPL
 BuildArch:      noarch
 URL:		http://www.go-mono.com
@@ -30,7 +30,8 @@ mv $RPM_BUILD_ROOT%_prefix/lib/pkgconfig/*.pc $RPM_BUILD_ROOT%_prefix/share/pkgc
 for langdir in %buildroot%_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/locale/*; do
 echo "%lang($(basename $langdir)) $(echo $langdir |sed s!%buildroot!!)" >> %name.lang
 done
-
+#gw don't provide this:
+ln -sf %_prefix/lib/mono/2.0/Mono.Data.Sqlite.dll %buildroot%_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/Mono.Data.Sqlite.dll
 
 %clean
 rm -rf "$RPM_BUILD_ROOT"
