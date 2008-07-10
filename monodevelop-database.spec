@@ -1,7 +1,7 @@
 Name:     	monodevelop-database
 Version:	1.0
 Release:	%mkrel 3
-License:	LGPL
+License:	GPLv2
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/%name/%{name}-%{version}.tar.bz2
