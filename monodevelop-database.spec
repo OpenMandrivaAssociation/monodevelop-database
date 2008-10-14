@@ -7,7 +7,7 @@ URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/%name/%{name}-%{version}.tar.bz2
 BuildRequires:	mono-devel
 BuildRequires:  monodevelop >= %version
-BuildRequires:  gtksourceview-sharp
+BuildRequires:  gtksourceview-sharp-devel
 %if %mdvver >= 200900
 #gw this is not yet in 2008.1
 BuildRequires:  mysql-connector-net
