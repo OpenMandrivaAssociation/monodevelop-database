@@ -1,5 +1,5 @@
 Name:     	monodevelop-database
-Version:	1.9
+Version:	1.9.1
 Release:	%mkrel 1
 License:	MIT
 BuildArch:      noarch
