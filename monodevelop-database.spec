@@ -1,6 +1,6 @@
 Name:     	monodevelop-database
-Version:	2.0
-Release:	%mkrel 2
+Version:	2.1.1
+Release:	%mkrel 1
 License:	MIT
 BuildArch:      noarch
 URL:		http://www.go-mono.com
