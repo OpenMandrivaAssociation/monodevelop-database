@@ -1,6 +1,6 @@
 Name:     	monodevelop-database
-Version:	2.2
-Release:	%mkrel 2
+Version:	2.4
+Release:	%mkrel 1
 License:	MIT
 BuildArch:      noarch
 URL:		http://www.go-mono.com
@@ -50,7 +50,9 @@ rm -rf "$RPM_BUILD_ROOT"
 %files -f %name.lang
 %defattr(-, root, root)
 %_prefix/share/pkgconfig/monodevelop-database.pc
+%dir %_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/
 %_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/*.dll
 %_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/*.mdb
+%_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/icons/
 %dir %_prefix/lib/monodevelop/AddIns/MonoDevelop.Database/locale/
 
