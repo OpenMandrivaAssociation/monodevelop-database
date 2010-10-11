@@ -12,6 +12,7 @@ BuildRequires:  gtksourceview-sharp-devel
 #gw this is not yet in 2008.1
 BuildRequires:  mysql-connector-net
 %endif
+BuildRequires:	mono-addins-devel
 Summary:	Monodevelop Database Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
