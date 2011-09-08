@@ -1,10 +1,10 @@
 Name:     	monodevelop-database
-Version:	2.4
-Release:	%mkrel 2
+Version:	2.6
+Release:	%mkrel 1
 License:	MIT
 BuildArch:      noarch
 URL:		http://www.go-mono.com
-Source0:	http://go-mono.com/sources/%name/%{name}-%{version}.tar.bz2
+Source0:	http://download.mono-project.com/sources/%name/%name-%version.tar.gz
 BuildRequires:	mono-devel
 BuildRequires:  monodevelop >= %version
 BuildRequires:  gtksourceview-sharp-devel
